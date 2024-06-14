@@ -1,0 +1,185 @@
+/*sergiy*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabluzia-mobile {
+    display: none;
+}
+.tabluzia {
+    width: 1160px;
+    margin: 0 auto;
+}
+.title-tabluzia {
+    text-align: center;
+    font-family: Playfair Display;
+font-size: 36px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0em;
+}
+.button-tabluzia1 {
+    width: 195px;
+    height: 59px;
+    background: #093B5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.button-tabluzia1:nth-child(2) {
+    background: #178a8d;
+    margin-left: 95px;
+}
+.button-tabluzia1:nth-child(3) {
+    background: #63c0c7;
+    margin-left: 95px;
+}
+.button-tabluzia-text1 {
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+.line1, .line2, .line3, .line4, .line5, .line6, .line7 {
+    display: flex;
+    border-bottom: 1px dashed #000000;
+}
+.line2, .line3, .line4, .line5, .line6, .line7 {
+    justify-content: space-between;
+}
+.line1 {
+    justify-content: flex-end;
+    padding-bottom: 22px;
+    margin-top: 41px;
+}
+.block-line2-1, .block-line3-1, .block-line4-1, .block-line5-1, .block-line6-1, .block-line7-1 {
+    width: 293px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFDA68;
+    padding: 5px 10px 5px 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 12px;
+}
+.block-line3-1 {
+    background: #ffda68;
+}
+.block-line4-1 {
+    background: #FFDE77;
+}
+.block-line5-1 {
+    background: #FFE38A;
+}
+.block-line6-1 {
+    background: #FFE9A2;
+}
+.block-line7-1 {
+    background: #FFEEBA;
+}
+.block-plus-minus21, .block-plus-minus31, .block-plus-minus41, .block-plus-minus51, .block-plus-minus61, .block-plus-minus71 {
+    width: 198px;
+    height: 62px;
+    background: #093B5E1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.block-plus-minus21 {
+    border-radius: 10px 10px 0 0;
+}
+.block-plus-minus71 {
+    border-radius: 0 0 10px 10px;
+}
+.block-plus-minus22, .block-plus-minus32, .block-plus-minus42, .block-plus-minus52, .block-plus-minus62, .block-plus-minus72 {
+    width: 198px;
+    height: 62px;
+    background: #178A8D29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.block-plus-minus22 {
+    border-radius: 10px 10px 0 0;
+}
+.block-plus-minus72 {
+    border-radius: 0 0 10px 10px;
+}
+.block-plus-minus23, .block-plus-minus33, .block-plus-minus43, .block-plus-minus53, .block-plus-minus63, .block-plus-minus73 {
+    width: 198px;
+    height: 62px;
+    background: #63C0C726;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.block-plus-minus23 {
+    border-radius: 10px 10px 0 0;
+}
+.block-plus-minus73 {
+    border-radius: 0 0 10px 10px;
+}
+/*eldar*/
+@media screen and (min-width: 1280px){
+	.metods_research{
+		width: 1160px;
+        height: 225px;
+        margin: 0 auto;
+	}
+	.title_metods{
+	   font-family: Playfair Display;
+       font-size: 36px;
+       font-weight: 700;
+       line-height: 50px;
+       letter-spacing: 0em;
+       text-align: left;
+    }
+    .kanban{
+    	height: 456px;
+    	width: 662px;
+    }
+    .text_scrum{
+    	font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .title_scrum{
+    	font-family: Playfair Display;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .text{
+    	font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #333333;
+    }
+    .scrum_or_kanban{
+    	width: 1158px;
+        height: 456px;
+        margin: 0 auto;
+        display: flex;
+    }
+}

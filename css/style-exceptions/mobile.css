@@ -1,0 +1,163 @@
+@media screen and (min-width:360px) and (max-width:733px){
+	.metods_research{
+		width: 340px;
+        margin: 0 auto;
+	}
+	.title_metods{
+		font-family: Playfair Display;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+	}
+    .tabluzia-mobile {
+        display: block;
+        width: 360px;
+        margin: 0 auto;
+    }
+    .tabluzia {
+        display: none;
+    }
+.title-tabluzi {
+    text-align: center;
+    font-family: Playfair Display;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+}
+.button-tabluzi1 {
+    width: 98px;
+    height: 59px;
+    background: #093B5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.button-tabluzi1:nth-child(2) {
+    background: #178a8d;
+    margin-left: 15px;
+}
+.button-tabluzi-text1 {
+    font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.78px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+.line1-m, .line2-m, .line3-m, .line4-m, .line5-m, .line6-m, .line7-m {
+    display: flex;
+    border-bottom: 1px dashed #000000;
+}
+.line2-m, .line3-m, .line4-m, .line5-m, .line6-m, .line7-m {
+    justify-content: space-between;
+}
+.line1-m {
+    justify-content: flex-end;
+    padding-bottom: 22px;
+    margin-top: 41px;
+}
+.block-line2-1-m, .block-line3-1-m, .block-line4-1-m, .block-line5-1-m, .block-line6-1-m, .block-line7-1-m {
+    width: 130px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFDA68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 12px;
+}
+.block-line3-1-m {
+    background: #ffda68;
+}
+.block-line4-1-m {
+    background: #FFDE77;
+}
+.block-line5-1-m {
+    background: #FFE38A;
+}
+.block-line6-1-m {
+    background: #FFE9A2;
+}
+.block-line7-1-m {
+    background: #FFEEBA;
+}
+.block-plus-minus1, .block-plus-minus1-m, .block-plus-minus1-k {
+    width: 98px;
+    height: 70px;
+    background: #093B5E1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.block-plus-minus1-m {
+    border-radius: 10px 10px 0 0;
+}
+.block-plus-minus1-k {
+    border-radius: 0 0 10px 10px;
+}
+.block-plus-minus2, .block-plus-minus2-m, .block-plus-minus2-k {
+    width: 98px;
+    height: 70px;
+    background: #178A8D29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.block-plus-minus2-m {
+    border-radius: 10px 10px 0 0;
+}
+.block-plus-minus2-k {
+    border-radius: 0 0 10px 10px;
+}
+	.text{
+		font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #333333;
+        margin-top: 10px;
+	}
+	.img-dt{
+		width: 336px;
+        height: 281px;
+	}
+	.scrum_or_kanban{
+		width: 340px;
+        height: 801px;
+        margin: 0 auto;
+	}
+	.title_scrum{
+	    font-family: Playfair Display;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 10px;
+	}
+	.text_scrum{
+		font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #333333;
+        margin-top:10px;
+	}
+}
